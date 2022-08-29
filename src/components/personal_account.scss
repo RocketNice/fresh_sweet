@@ -1,5 +1,6 @@
 html {
   min-height: 100vh;
+  height: 100%;
 }
 
 .personal_account_container,
@@ -324,4 +325,8 @@ body {
     }
 
   }
+}
+
+.html_for_personal_account {
+  height: unset;
 }
