@@ -1,0 +1,13 @@
+@import '/src/components/personal_account';
+@import '/src/scss/normalize';
+@import '/src/scss/font';
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: unset;
+}
+
+button {
+    cursor: pointer;
+}

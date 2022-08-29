@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+   <title>Getting Started</title>
+   <link rel='stylesheet' href='../dist/style.css'>
+</head>
+
+<body>
+   <div class="personal_account_container">
+      <!-- Голова статичная -->
+      <header class="header_personal_account">
+         <div class="burger-menu">
+            <a href="" class="burger-menu_button">
+               <spun class="burger-menu_lines"></spun>
+            </a>
+            <nav class="burger-menu_nav">
+               <a class="burger-menu_link">Главная</a>
+               <a class="burger-menu_link">Личный Кабинет</a>
+               <a class="burger-menu_link">Корзина</a>
+               <a class="burger-menu_link">Svezhe@Bk.Ru</a>
+               <a class="burger-menu_link">+7 927 671-65-15</a>
+            </nav>
+            <div class="burger-menu_overlay"></div>
+         </div>
+         <div class="logo_in_the_middle">ЛИЧНЫЙ КАБИНЕТ</div>
+      </header>
+      <!-- Середина статичная -->
+      <div class="middle_of_the_page font_family_size logout">
+         <div class="error_log_pass_container">
+            <div class="error_block">
+               <div style="margin-right:10px;"><img src="../img/png-clipart-exclamation-mark-exclamation-mark.png"></div>
+               <div><strong>Ошибка: </strong>Необходимо ввести имя пользователя.</div>
+            </div>
+         </div>
+         <h2>Вход</h2>
+
+         <form class="authorization_form">
+            <!-- Почта -->
+            <label style="display:flex;" for="username">Имя пользователя или Email <div style="color: red; margin-left: 2px;">*</div></label>
+            <input class="email_input" type="text" name="yearconst">
+            <!-- Пароль -->
+            <label style="display:flex;" for="username">Пароль <div style="color: red; margin-left: 2px;">*</div></label>
+            <input class="password_input" name="password" type="password" id="replace_pass">
+            <span class="see_password" onclick="return show_hide_password(this);">
+               
+            </span>
+            <!-- чекбокс -->
+            <div class="form_row">
+               <label>
+                  <input type="checkbox">
+                  <span>Запомнить меня</span>
+               </label>
+               <button type="submit" class="login_submit" onClick="return Formdata(this.form)">Войти</button>
+            </div>
+            <a>Забыли пароль ?</a>
+         </form>
+
+   </div>
+
+
+   <script src="../src/js/personal_account.js"></script>
+</body>
+
+</html>
